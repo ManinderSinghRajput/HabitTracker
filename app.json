@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Ritual",
+    "slug": "ritual",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "scheme": "ritual",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0E0E10",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ritual.app"
+    },
+    "android": {
+      "package": "com.ritual.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E0E10"
+      }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e471b569-6225-4555-b909-8cd88383d6e5"
+      }
+    },
+    "owner": "thakursaab"
+  }
+}
